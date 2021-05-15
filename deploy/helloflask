@@ -4,6 +4,6 @@ server {
 
     location / {
         include proxy_params;
-        proxy_pass http://unix:/home/ubuntu/helloflask/app/helloflask.sock;
+        proxy_pass http://unix:/home/ubuntu/HelloFlask/helloflask.sock;
     }
 }
